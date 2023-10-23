@@ -134,8 +134,3 @@ class AnalizadorSintactico:
         self.estado_actual = accion
         print("sig estado actual: " + self.estado_actual + " accion: " + accion)
 
-
-# Uso del analizador sintáctico
-analizador = AnalizadorSintactico()
-tokens = ["token1", "token2", "token3"]  # Reemplaza con tus tokens reales
-analizador.analisis(tokens)
